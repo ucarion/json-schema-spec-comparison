@@ -76,7 +76,7 @@ keywords. `json-schema-go` does *not* adhere to this, because it's quite
 confusing and without clear benefits to the user.
 
 In other words, `$ref` in `json-schema-go` works like all other keywords. It's
-implicitly ANDed will all of its siblings.
+implicitly ANDed with all of its siblings.
 
 ### MutipleOf Precision
 
