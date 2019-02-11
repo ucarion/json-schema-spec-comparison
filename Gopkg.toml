@@ -28,3 +28,11 @@
 [prune]
   go-tests = true
   unused-packages = true
+
+[[constraint]]
+  name = "github.com/stretchr/testify"
+  version = "1.3.0"
+
+[[constraint]]
+  name = "github.com/json-schema-spec/json-schema-go"
+  version = "0.2.5"

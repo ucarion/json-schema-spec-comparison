@@ -1,0 +1,12 @@
+{
+    "$id": "http://localhost:1234/name.json",
+    "definitions": {
+        "orNull": {
+            "anyOf": [
+                {"type": "null"},
+                {"$ref": "#"}
+            ]
+        }
+    },
+    "type": "string"
+}
